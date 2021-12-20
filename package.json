@@ -11,6 +11,6 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "json-server": "https://github.com/typicode/json-server.git"
+    "json-server": "0.17.0"
   }
 }
