@@ -1,6 +1,6 @@
 # api server
 
-A rest server for playing & testing. Runs on port 3000.
+A rest server for playing & testing. Runs on port 5000.
 
 # usage
 
@@ -25,12 +25,12 @@ If all went well, you should see this:
   Done
 
   Resources
-  http://localhost:3000/posts
-  http://localhost:3000/comments
-  http://localhost:3000/profiles
+  http://localhost:5000/posts
+  http://localhost:5000/comments
+  http://localhost:5000/profiles
 
   Home
-  http://localhost:3000
+  http://localhost:5000
 
   Type s + enter at any time to create a snapshot of the database
   Watching...
