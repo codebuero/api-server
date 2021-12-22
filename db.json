@@ -1,12 +1,116 @@
 {
-  "posts": [
-    { "id": 1, "title": "json-server", "profileId": 1 },
-    { "id": 2, "title": "bar", "profileId": 1 },
-    { "id": 3, "title": "foo", "profileId": 1 }
+  "musicgroups": [
+    {
+      "id": 1,
+      "name": "new order"
+    },
+    {
+      "id": 2,
+      "name": "joy division"
+    },
+    {
+      "id": 3,
+      "name": "bad lieutenant"
+    },
+    {
+      "id": 4,
+      "name": "warsaw"
+    },
+    {
+      "id": 5,
+      "name": "monaco"
+    },
+    {
+      "id": 6,
+      "name": "the other two"
+    }
   ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some other comment", "postId": 2 }
+  "musicalbums": [
+    {
+      "id": 1,
+      "name": "power, corruption and lies",
+      "musicgroupId": 1
+    },
+    {
+      "id": 2,
+      "name": "brotherhood",
+      "musicgroupId": 1
+    },
+    {
+      "id": 3,
+      "name": "unknown pleasures",
+      "musicgroupId": 2
+    },
+    {
+      "id": 4,
+      "name": "closer",
+      "musicgroupId": 2
+    },
+    {
+      "id": 5,
+      "name": "never cry another tear",
+      "musicgroupId": 3
+    },
+    {
+      "id": 6,
+      "name": "warsaw",
+      "musicgroupId": 4
+    },
+    {
+      "id": 7,
+      "name": "music for pleasure",
+      "musicgroupId": 5
+    },
+    {
+      "id": 8,
+      "name": "monaco",
+      "musicgroupId": 5
+    },
+    {
+      "id": 9,
+      "name": "the other two & you",
+      "musicgroupId": 6
+    },
+    {
+      "id": 10,
+      "title": "super highways",
+      "musicgroupId": 6
+    }
   ],
-  "profiles": [{ "name": "andi", "id": 1  }]
+  "persons": [
+    {
+      "name": "bernhard summer",
+      "id": 1,
+      "bandId": [1,2,3,4]
+    },
+    {
+      "name": "peter hook",
+      "id": 2,
+      "bandId": [1,2,3,5]
+    },
+    {
+      "name": "stephen morris",
+      "id": 3,
+      "bandId": [1,2,4,6]
+    },
+    {
+      "name": "gillian gilbert",
+      "id": 4,
+      "bandId": [1,6]
+
+    },
+    {
+      "name": "phil cunningham",
+      "id": 5,
+      "bandId": [1,3]
+    },
+    {
+      "name": "tom chapman",
+      "id": 6,
+      "bandId": [
+        1,
+        3
+      ]
+    }
+  ]
 }
